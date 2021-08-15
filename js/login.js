@@ -6,7 +6,7 @@ document.getElementById('login-submit').addEventListener('click', function(){
 
     //check email and password
     if(userEmail == 'sontan@baap.com' && userPassword == 'secret'){
-        window.location.href = '/banking.html';
+        window.location.href = '/pioneer-bank-tailwind/banking.html';
     }
     else{
         alert('invalid email or password')
